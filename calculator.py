@@ -1,4 +1,8 @@
 def add(a, b):
     return a + b
 
-print(add(45, 55))
+while True:
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    print(str(a) + ' + ' + str(b) + ' = ' + str(add(a, b)))
+    print()
