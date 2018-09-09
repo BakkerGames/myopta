@@ -1,6 +1,9 @@
 def add(a, b):
     return a + b
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-print(add(a, b))
+try:
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    print(add(a, b))
+except ValueError:
+    print("not valid numbers!")
